@@ -1,5 +1,6 @@
 FROM zenato/puppeteer
 
+USER root
 WORKDIR /data
 
 ADD index.* package.json yarn.lock ./
